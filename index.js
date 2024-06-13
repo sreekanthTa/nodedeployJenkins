@@ -5,6 +5,7 @@ const app = express();
 
 
 app.get("/", async (req,res)=>{
+    console.log("checking details ",req,res)
     res.send("Welcome to my API");
 })
 
