@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Install PM2 globally
+RUN npm install -g pm2
+
 # Copy the rest of your application code to the container
 COPY . .
 
