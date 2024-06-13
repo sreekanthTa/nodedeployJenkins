@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index",
+    "start": "nodemon index",
     "prod": "pm2 start index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "nodemon": "^3.1.3"
+    "nodemon": "^3.1.3",
+    "pm2": "^5.4.0"
   }
 }
